@@ -1,6 +1,8 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    width: 85%;
+    align-content: center;
 }
 
 nav a {
@@ -11,105 +13,115 @@ nav a {
     font-size: 1.2em;
 }
 
-#hero-msg h1{
+#hero-msg h1 {
     text-align: center;
 }
 
-#hero-msg h4{
+#hero-msg h4 {
     text-align: center;
 }
 
-main section{
+main section {
     text-align: center;
 }
 
 #background {
     height: 725px;
+    background-color: grey;
+}
+
+body {
     background-color: aliceblue;
 }
 
-body{
-    background-color: aliceblue;
-}
-
-header{
+header {
     background-color: aqua;
+    text-align: center;
 }
 
-nav a:hover{
+nav a:hover {
     color: brown;
 }
 
-.book{
+.book {
+    background-color: aliceblue;
+    color: blue;
+    text-align: center;
+}
+
+.join {
     background-color: aliceblue;
     color: blue;
 }
 
-.join{
-    background-color: aliceblue;
-    color: blue;
-}
-
-.book:hover{
+.book:hover {
     color: brown;
 }
 
-.join:hover{
+.join:hover {
     color: brown;
 }
 
-.msg{
+.msg {
     color: darkslategray;
+    align-content: center;
 }
 
-footer{
+footer {
     background-color: darkolivegreen;
     color: #bf5700;
 }
 
-.home-title{
+.home-title {
     color: black;
 }
 
-h4{
+h4 {
     color: darkslategray;
 }
 
-.msg h2{
+.msg h2 {
     color: darkslategray;
 }
 
-.msg p{
+.msg p {
     color: darkslategray;
 }
 
-footer a{
+footer a {
     color: #bf5700;
 }
 
-footer a:hover{
+footer a:hover {
     color: blue;
 }
 
-.logo{
+.logo {
     width: 80px;
 }
 
-.icon{
+.icon {
     width: 80px;
 }
 
-#hero-img{
+#hero-img {
     width: 100%;
 }
 
-footer p{
+footer p {
     font-size: 1.2em;
 }
 
-footer p a:hover{
+footer p a:hover {
     text-decoration: underline;
 }
+
+.mountains {
+    margin: 0 auto;
+}
+
+
+
 
 
 
