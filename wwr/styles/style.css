@@ -15,16 +15,21 @@ nav a {
     color: black;
     text-decoration: none;
     font-size: 1.2em;
-    padding: 35px;
+    padding: 15px;
+}
+
+#hero-msg {
+    background-color: darkslategray;
+    text-align: center;
+    color: bisque;
 }
 
 #hero-msg h1 {
     text-align: center;
+    background-color: darkslategray;
 }
 
-#hero-msg h4 {
-    text-align: center;
-}
+
 
 main section {
     text-align: center;
@@ -41,6 +46,10 @@ body {
     padding: 0;
 }
 
+.button-box {
+    text-align: center;
+}
+
 header {
     background-color: aqua;
     text-align: center;
@@ -51,22 +60,24 @@ nav a:hover {
 }
 
 .book {
-    background-color: aliceblue;
-    color: blue;
+    background-color: burlywood;
+    color: black;
     text-align: center;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .join {
-    background-color: aliceblue;
-    color: blue;
+    background-color: burlywood;
+    color: black;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .book:hover {
@@ -78,14 +89,15 @@ nav a:hover {
 }
 
 .msg {
-    color: darkslategray;
+    color: bisque;
     align-content: center;
     line-height: 1.5em;
     padding: 35px;
+    background-color: darkslategray;
 }
 
 footer {
-    background-color: darkolivegreen;
+    background-color: darkslategray;
     color: #bf5700;
     padding: 25px 50px;
     margin-top: 200px;
@@ -99,16 +111,16 @@ footer {
 }
 
 h4 {
-    color: darkslategray;
+    color: bisque;
 }
 
 .msg h2 {
-    color: darkslategray;
+    color: bisque;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .msg p {
-    color: darkslategray;
+    color: bisque;
     font-size: .8em;
     padding-bottom: 15px;
 }
